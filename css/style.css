@@ -1,5 +1,13 @@
 #main-content {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+body {
+    background-image: url('https://secure.static.tumblr.com/65f982dc72c0d6aa36ec7d88b146d11b/owgtjbe/s5Ln03c71/tumblr_static_pink-and-blue-minimalist-free-desktop-wallpaper-1920x1080.jpg');
+}
+
+.main-components  {
+    background-color: #f2ccff;
 }
