@@ -5,7 +5,11 @@
 }
 
 body {
-    background-image: url('https://secure.static.tumblr.com/65f982dc72c0d6aa36ec7d88b146d11b/owgtjbe/s5Ln03c71/tumblr_static_pink-and-blue-minimalist-free-desktop-wallpaper-1920x1080.jpg');
+  background: indigo; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(violet,indigo,indigo,violet); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(violet,indigo,indigo,violet); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(violet,indigo,indigo,violet); /* For Firefox 3.6 to 15 */
+background: linear-gradient(violet,indigo,indigo,violet); /* Standard syntax */
 }
 
 .main-components  {
