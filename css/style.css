@@ -23,6 +23,7 @@ background: linear-gradient(violet,indigo,indigo,violet); /* Standard syntax */
   margin-top: 20px;
   height: 328px;
   width: 420px;
+  min-width: 420px;
 }
 
 .gameboytxt {
@@ -82,5 +83,11 @@ background: linear-gradient(violet,indigo,indigo,violet); /* Standard syntax */
   position: absolute;
   top: 342px;
   left: 315px;
+}
 
+.inner-col {
+  min-width: 422px;
+}
+.main-col {
+  min-width: 450px;
 }
