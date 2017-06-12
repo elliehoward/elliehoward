@@ -91,3 +91,10 @@ background: linear-gradient(violet,indigo,indigo,violet); /* Standard syntax */
 .main-col {
   min-width: 450px;
 }
+#aboutinfo {
+  max-width: 100px;
+}
+
+.aboutme {
+  max-height: 26px;
+}
