@@ -16,29 +16,71 @@ background: linear-gradient(violet,indigo,indigo,violet); /* Standard syntax */
     background-color: #f2ccff;
 }
 .gameboy {
-  position: absolute;
-  width: 110%;
-
-}
-.skills {
-    /*position: absolute;*/
-    height: 600px;
-}
-
-
-#screen-text {
   position: relative;
-  font-family: 'Press Start 2P';
-  width: 150px;
-  font-size: 15px;
-  left: 160px;
-  top: 60px;
+}
+
+#gameboyimage {
+  margin-top: 20px;
+  height: 328px;
+  width: 420px;
+}
+
+.gameboytxt {
+  position: absolute;
+  top: 100px;
+  left: 115px;
+  width: 190px;
+  text-align: center;
+
+}
+
+.skills {
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #d-pad {
-  width: 75px;
-  position: relative;
-  height: 75px;
-  top: 160px;
-  left: 110px;
+  position: absolute;
+  /*background-color: red;*/
+  height: 35px;
+  width: 56px;
+  left: 26px;
+  top: 275px;
+  /*opacity: 0.6;*/
+
+}
+
+#buttons {
+  position: absolute;
+  height: 40px;
+  width: 65px;
+  left: 328px;
+  top: 248px;
+
+}
+.none {
+  display: none;
+}
+.fuzzy {
+  width: 220px;
+  position: absolute;
+  left: 100px;
+  width: 220px;
+  height: 126px;
+  overflow: hidden;
+  top: 70px;
+  border-radius: 5px;
+
+}
+.fuzzyimg {
+  width: 220px;
+}
+
+#powerbtn {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 342px;
+  left: 315px;
+
 }
